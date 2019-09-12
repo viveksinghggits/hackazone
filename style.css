@@ -8,4 +8,59 @@
     padding-left: 50px;
     width: 90%;
     margin: auto;
+    clear: both;
+}
+.al-center{
+    width: 90%;
+    margin: auto;
+}
+#wrapper{
+    
+}
+.prod-boxes{
+    float: left;
+}
+#prod-image{
+    width: 30%;
+    padding-top: 50px;
+}
+#prod-details{
+    width: 40%;
+    padding-top: 50px;
+}
+#buy-options{
+    padding-top: 50px;
+    width: 30%;
+}
+.small-fonts{
+    font-size: 13px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #0066c0;
+}
+a:hover{
+    text-decoration: underline;
+    color: #f0c250;
+}
+.color-gray{
+    color: gray;
+}
+#buy-box{
+    text-align: center;
+}
+.std-button{
+    width: 150px;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: none;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: gray;
 }
