@@ -1,0 +1,11 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#header{
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    padding-left: 50px;
+    width: 90%;
+    margin: auto;
+}
