@@ -70,3 +70,15 @@ hr{
     border: 1px solid gray;
     padding: 5px;
 }
+#paymentmethod{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 3px;
+}
+#paymentstable{
+    width: 1260px;
+}
+.cvv{
+    padding: 10px;
+    width: 100px;
+}

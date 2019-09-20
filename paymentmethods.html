@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="header" class="al-center">
+                <h3>Hackazon</h1>
+        </div>
+        <div id="body" class="al-center">
+            <h1>Select a payment method</h1>
+        </div>
+        <div id="paymentmethod" class="al-center">
+            <div id="method1" class="paymethods">
+                <h3>Your available balance</h3>
+                <hr>
+                <input type="checkbox"> Use your 17.00 Amazon Pay Balance.
+            </div>
+            <div id="method2" class="paymethods">
+                    <h3>Your saved credit and debit cards</h3>
+                    <hr>
+                    <table id="paymentstable">
+                        <tr>
+                            <td><input type="radio" name="bankname" >State Bank Of India <span class="small-fonts">ending in 1234</span></td>
+                            <td>Vivek Singh</td>
+                            <td>12/12/2012</td>
+                        </tr>
+                        <tr>
+                            <td>Enter CVV  <input type="text" id="sbicvv" class="cvv"><br>
+                                <span class="small-fonts">(Your preferred payment method)</span>
+                            </td>
+                            
+                        </tr>
+                    </table>
+            </div>
+            <div id="method3" class="paymethods">
+                    <h3>Another payment method</h3>
+                    <hr>
+                    <table>
+                        <tr><input type="radio">Add Debit/Credit/ATM Card</tr>
+                    </table>
+            </div>
+        </div>
+    </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (){
+            document.getElementById("sbicvv").focus()
+        });
+    </script>
+</html>
